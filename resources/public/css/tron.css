@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'ArtBrush Medium';
+    src: url('css/Tr2n.ttf');
+    src: local('ArtBrush Medium'), local('ArtBrush-Medium'), url('Tr2n.ttf') format('truetype');
+}
+
+body {background-image:url('tron.jpg')}
+
+tr {font: 60px/67px 'ArtBrush Medium' ;
+    color: #7FFFD4}
+
+td {font: 40px/47px 'ArtBrush Medium' ;
+    color: #7FFFD4}
