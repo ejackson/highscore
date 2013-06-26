@@ -20,7 +20,7 @@
        [:table {:style "border: 0; cell padding 100;  cell-spacing 100;"}
         [:tr (map-tag :th headings)]
         (map (fn [row]
-               (->> (map (fn [h] (get row h)) headings)
+               (->> (map (fn [h] (row h)) headings)
                     (map-tag :td)
                     (cons :tr)
                     vec))
